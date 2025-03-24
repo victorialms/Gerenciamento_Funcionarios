@@ -1,18 +1,62 @@
-_Proposta de Trabalho de Programação:_ Sistema de Gerenciamento de Funcionários<br><br>
+# 🏢 Sistema de Gerenciamento de Funcionários
 
-_Objetivo:_<br>
-Desenvolver um sistema de gerenciamento de funcionários que permita o cadastro,
-consulta, atualização e exclusão de dados de funcionários. O sistema deve utilizar conceitos de
-herança, interfaces, abstração, ArrayList para armazenamento temporário de dados e persistência
-em arquivos para armazenamento permanente. O projeto deve seguir o padrão arquitetural MVC
-(Model-View-Controller) e aplicar as práticas de Clean Code.<br><br>
+Um sistema para cadastro, consulta, atualização e exclusão de funcionários, utilizando o padrão **MVC** e aplicando conceitos de **herança, interfaces e abstração**. O armazenamento temporário é feito com **ArrayList**, e a persistência dos dados ocorre via arquivos.
 
-_Descrição do Problema:_<br>
-A empresa TechCorp deseja implementar um sistema para gerenciar informações sobre seus
-funcionários, que incluem desenvolvedores, gerentes e treinadores. Cada funcionário possui dados
-como nome e salário. Dependendo do cargo, os funcionários têm responsabilidades diferentes:<br>
-• Desenvolvedores: Realizam atividades de codificação e resolução de problemas técnicos.<br>
-• Gerentes: Organizam a equipe e conduzem reuniões.<br>
-• Treinadores: Ensinam novas tecnologias e motivam a equipe.<br>
-• Gerente Desenvolvedor: Possui responsabilidades de desenvolvedor e gerente.
+## 🚀 Funcionalidades
 
+- Cadastro de funcionários  
+- Consulta de funcionários cadastrados  
+- Atualização de informações de funcionários  
+- Exclusão de funcionários  
+- Persistência dos dados em arquivos  
+
+## 🏗️ Estrutura do Projeto
+
+│── Projeto<br>
+│ ├── Desenvolve.java<br> 
+│ ├── Desenvolvedor.java<br>
+│ ├── Funcionario.java<br> 
+│ ├── Gerencia.java<br> 
+│ ├── Gerente.java<br> 
+│ ├── GerenteDesenvolvedor.java<br> 
+│ ├── Treina.java<br> 
+│ ├── Treinador.java<br> 
+│── Main.java<br> 
+│── README.md<br> 
+
+
+
+
+## 📌 Tecnologias Utilizadas
+
+- **Java** ☕  
+- **Padrão MVC** 🎯  
+- **Persistência de dados com arquivos** 🗂️  
+- **Princípios de Clean Code** ✅  
+
+## ▶️ Como Executar
+
+Clone este repositório:
+
+```bash
+git clone https://github.com/victorialms/Cadastrar-Alunos.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd Gerenciamento_Funcionarios
+```
+Compile o código:
+
+```bash
+javac -d . model/*.java Main.java
+```
+Execute o programa:
+
+```bash
+java model.Main
+```
+
+## 📜 Licença
+Este projeto é de livre uso para fins acadêmicos e pessoais. ✨
