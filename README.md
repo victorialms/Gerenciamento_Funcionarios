@@ -50,12 +50,12 @@ cd Gerenciamento_Funcionarios
 Compile o código:
 
 ```bash
-javac -d . model/*.java Main.java
+javac -d . Projeto/*.java Main.java
 ```
 Execute o programa:
 
 ```bash
-java model.Main
+java Main
 ```
 
 ## 📜 Licença
